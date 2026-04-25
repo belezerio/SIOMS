@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using SIOMS.Data;
 using SIOMS.Repositories;
 using SIOMS.Services;
-
+using Microsoft.Extensions.Logging;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -16,6 +16,8 @@ builder.Services.AddScoped<IProductRepository,ProductRepository>();
 builder.Services.AddScoped<ProductService>();
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddControllers();
+
+builder.Logging.AddLog4Net("log4net.config");
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -24,7 +26,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseMiddleware<ExceptionMiddleware>();
+app.UseMiddleware<RequestLoggingMiddleware>();
 app.UseHttpsRedirection();
 app.MapControllers();
 app.Run();

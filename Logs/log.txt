@@ -1,0 +1,16 @@
+2026-04-25 20:46:38,064 INFO  Now listening on: http://localhost:5203
+2026-04-25 20:46:38,094 INFO  Application started. Press Ctrl+C to shut down.
+2026-04-25 20:46:38,095 INFO  Hosting environment: Development
+2026-04-25 20:46:38,095 INFO  Content root path: /home/belezerio/SIOMS
+2026-04-25 20:46:51,586 WARN  Failed to determine the https port for redirect.
+2026-04-25 20:46:51,810 INFO  🔥 LOG TEST WORKING
+2026-04-25 20:46:51,811 ERROR 🔥 ERROR LOG TEST
+2026-04-25 20:46:52,323 WARN  No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-04-25 20:46:52,591 WARN  The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-04-25 20:46:52,592 WARN  The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-04-25 20:46:53,087 INFO  Executed DbCommand (76ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2026-04-25 20:47:51,075 INFO  Application is shutting down...

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZOreNXIJVzB2zAzzMuSMzAmewxvS3AX58ZNUSPQ4rlI6SYyhiRgOKzE79yxpZ3yiue+83X4NDx5HTqZHhMBg0A==",
+  "dgSpecHash": "o2ihbjQXogkr1EV5rN1wAU/ftnpSJfRGJGbe6zaf2kUSNphburLu5/kMWux1+bKMjsbKKomDODRII65J2f2JGg==",
   "success": true,
   "projectFilePath": "/home/belezerio/SIOMS/SIOMS.csproj",
   "expectedPackageFiles": [
@@ -32,12 +32,15 @@
     "/home/belezerio/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/home/belezerio/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "/home/belezerio/.nuget/packages/microsoft.extensions.caching.memory/8.0.0/microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "/home/belezerio/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "/home/belezerio/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/home/belezerio/.nuget/packages/microsoft.extensions.configuration.binder/8.0.0/microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
     "/home/belezerio/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "/home/belezerio/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "/home/belezerio/.nuget/packages/microsoft.extensions.dependencymodel/8.0.0/microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
     "/home/belezerio/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "/home/belezerio/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/home/belezerio/.nuget/packages/microsoft.extensions.logging.log4net.aspnetcore/8.0.0/microsoft.extensions.logging.log4net.aspnetcore.8.0.0.nupkg.sha512",
     "/home/belezerio/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
     "/home/belezerio/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "/home/belezerio/.nuget/packages/microsoft.identity.client/4.47.2/microsoft.identity.client.4.47.2.nupkg.sha512",

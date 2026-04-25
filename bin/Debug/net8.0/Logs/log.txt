@@ -1,0 +1,35 @@
+2026-04-25 20:14:16,367 [1] INFO  Now listening on: http://localhost:5203
+2026-04-25 20:14:16,399 [1] INFO  Application started. Press Ctrl+C to shut down.
+2026-04-25 20:14:16,400 [1] INFO  Hosting environment: Development
+2026-04-25 20:14:16,400 [1] INFO  Content root path: /home/belezerio/SIOMS
+2026-04-25 20:15:09,889 [12] INFO  Application is shutting down...
+2026-04-25 20:15:31,711 [1] INFO  Now listening on: http://localhost:5203
+2026-04-25 20:15:31,746 [1] INFO  Application started. Press Ctrl+C to shut down.
+2026-04-25 20:15:31,747 [1] INFO  Hosting environment: Development
+2026-04-25 20:15:31,747 [1] INFO  Content root path: /home/belezerio/SIOMS
+2026-04-25 20:15:48,096 [16] WARN  Failed to determine the https port for redirect.
+2026-04-25 20:15:48,866 [16] WARN  No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-04-25 20:15:49,135 [16] WARN  The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-04-25 20:15:49,135 [16] WARN  The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-04-25 20:15:49,689 [16] INFO  Executed DbCommand (72ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2026-04-25 20:44:54,517 [134] INFO  Application is shutting down...
+2026-04-25 20:45:05,803 INFO  Now listening on: http://localhost:5203
+2026-04-25 20:45:05,834 INFO  Application started. Press Ctrl+C to shut down.
+2026-04-25 20:45:05,835 INFO  Hosting environment: Development
+2026-04-25 20:45:05,835 INFO  Content root path: /home/belezerio/SIOMS
+2026-04-25 20:45:31,808 WARN  Failed to determine the https port for redirect.
+2026-04-25 20:45:32,047 INFO  🔥 LOG TEST WORKING
+2026-04-25 20:45:32,048 ERROR 🔥 ERROR LOG TEST
+2026-04-25 20:45:32,553 WARN  No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-04-25 20:45:32,873 WARN  The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-04-25 20:45:32,873 WARN  The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-04-25 20:45:33,418 INFO  Executed DbCommand (86ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2026-04-25 20:46:33,150 INFO  Application is shutting down...

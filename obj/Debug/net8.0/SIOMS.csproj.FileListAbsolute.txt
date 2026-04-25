@@ -1,10 +1,4 @@
-/home/belezerio/SIOMS/obj/Debug/net8.0/SIOMS.csproj.AssemblyReference.cache
-/home/belezerio/SIOMS/obj/Debug/net8.0/SIOMS.GeneratedMSBuildEditorConfig.editorconfig
-/home/belezerio/SIOMS/obj/Debug/net8.0/SIOMS.AssemblyInfoInputs.cache
-/home/belezerio/SIOMS/obj/Debug/net8.0/SIOMS.AssemblyInfo.cs
-/home/belezerio/SIOMS/obj/Debug/net8.0/SIOMS.csproj.CoreCompileInputs.cache
-/home/belezerio/SIOMS/obj/Debug/net8.0/SIOMS.MvcApplicationPartsAssemblyInfo.cs
-/home/belezerio/SIOMS/obj/Debug/net8.0/SIOMS.MvcApplicationPartsAssemblyInfo.cache
+/home/belezerio/SIOMS/bin/Debug/net8.0/log4net.config
 /home/belezerio/SIOMS/bin/Debug/net8.0/appsettings.Development.json
 /home/belezerio/SIOMS/bin/Debug/net8.0/appsettings.json
 /home/belezerio/SIOMS/bin/Debug/net8.0/SIOMS
@@ -34,6 +28,7 @@
 /home/belezerio/SIOMS/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
 /home/belezerio/SIOMS/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll
 /home/belezerio/SIOMS/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/home/belezerio/SIOMS/bin/Debug/net8.0/Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
 /home/belezerio/SIOMS/bin/Debug/net8.0/Microsoft.Identity.Client.dll
 /home/belezerio/SIOMS/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
 /home/belezerio/SIOMS/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
@@ -127,6 +122,14 @@
 /home/belezerio/SIOMS/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
 /home/belezerio/SIOMS/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
 /home/belezerio/SIOMS/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/home/belezerio/SIOMS/obj/Debug/net8.0/SIOMS.csproj.AssemblyReference.cache
+/home/belezerio/SIOMS/obj/Debug/net8.0/SIOMS.GeneratedMSBuildEditorConfig.editorconfig
+/home/belezerio/SIOMS/obj/Debug/net8.0/SIOMS.AssemblyInfoInputs.cache
+/home/belezerio/SIOMS/obj/Debug/net8.0/SIOMS.AssemblyInfo.cs
+/home/belezerio/SIOMS/obj/Debug/net8.0/SIOMS.csproj.CoreCompileInputs.cache
+/home/belezerio/SIOMS/obj/Debug/net8.0/SIOMS.MvcApplicationPartsAssemblyInfo.cs
+/home/belezerio/SIOMS/obj/Debug/net8.0/SIOMS.MvcApplicationPartsAssemblyInfo.cache
+/home/belezerio/SIOMS/obj/Debug/net8.0/SIOMS.sourcelink.json
 /home/belezerio/SIOMS/obj/Debug/net8.0/staticwebassets.build.json
 /home/belezerio/SIOMS/obj/Debug/net8.0/staticwebassets.development.json
 /home/belezerio/SIOMS/obj/Debug/net8.0/staticwebassets/msbuild.SIOMS.Microsoft.AspNetCore.StaticWebAssets.props
@@ -141,4 +144,3 @@
 /home/belezerio/SIOMS/obj/Debug/net8.0/SIOMS.pdb
 /home/belezerio/SIOMS/obj/Debug/net8.0/SIOMS.genruntimeconfig.cache
 /home/belezerio/SIOMS/obj/Debug/net8.0/ref/SIOMS.dll
-/home/belezerio/SIOMS/obj/Debug/net8.0/SIOMS.sourcelink.json

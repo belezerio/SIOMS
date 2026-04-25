@@ -1,5 +1,6 @@
 using AutoMapper;
 using SIOMS.DTOs;
+using SIOMS.Helpers;
 using SIOMS.Models;
 using SIOMS.Repositories;
 
@@ -9,16 +10,21 @@ public class ProductService
 {
     private readonly IProductRepository _repo;
     private readonly IMapper _mapper;
-
-    public ProductService(IProductRepository repo, IMapper mapper)
+    private readonly ILogger<ProductService> _logger;
+    public ProductService(IProductRepository repo, IMapper mapper,ILogger<ProductService> logger)
     {
         _repo = repo;
         _mapper = mapper;
+        _logger = logger;
+        _logger.LogInformation("🔥 LOG TEST WORKING");
+_logger.LogError("🔥 ERROR LOG TEST");
     }
 
-    public async Task<IEnumerable<ProductResponseDto>> GetAllProducts()
+    public async Task<IEnumerable<ProductResponseDto>> GetAllProducts(ProductQueryParams query)
     {
-        var products = await _repo.GetAllAsync();
+
+
+        var products = await _repo.GetAllAsync(query);
         return _mapper.Map<IEnumerable<ProductResponseDto>>(products);
     }
 

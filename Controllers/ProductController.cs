@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using SIOMS.DTOs;
+using SIOMS.Helpers;
 using SIOMS.Services;
 
 namespace SIOMS.Controllers;
@@ -16,9 +17,9 @@ public class ProductController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> Get()
+    public async Task<IActionResult> Get([FromQuery] ProductQueryParams query)
     {
-        var products = await _service.GetAllProducts();
+        var products = await _service.GetAllProducts(query);
         return Ok(products);
     }
 
