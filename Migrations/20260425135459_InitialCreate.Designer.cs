@@ -4,13 +4,14 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using SIOMS.Data;
 
 #nullable disable
 
 namespace SIOMS.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260425132302_InitialCreate")]
+    [Migration("20260425135459_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

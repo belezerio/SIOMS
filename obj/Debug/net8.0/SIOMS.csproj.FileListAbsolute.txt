@@ -141,3 +141,4 @@
 /home/belezerio/SIOMS/obj/Debug/net8.0/SIOMS.pdb
 /home/belezerio/SIOMS/obj/Debug/net8.0/SIOMS.genruntimeconfig.cache
 /home/belezerio/SIOMS/obj/Debug/net8.0/ref/SIOMS.dll
+/home/belezerio/SIOMS/obj/Debug/net8.0/SIOMS.sourcelink.json
