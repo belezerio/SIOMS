@@ -150,3 +150,8 @@ VALUES (N'20260425135459_InitialCreate', N'8.0.0');
 2026-04-27 18:01:06,222 INFO  Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
 INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
 VALUES (N'20260427122928_AddUserTable', N'8.0.0');
+2026-04-27 18:02:20,478 WARN  No XML encryptor configured. Key {46fd4ed1-85bd-4e69-88d9-c0138c2fe677} may be persisted to storage in unencrypted form.
+2026-04-27 18:02:20,581 INFO  Now listening on: http://localhost:5203
+2026-04-27 18:02:20,584 INFO  Application started. Press Ctrl+C to shut down.
+2026-04-27 18:02:20,584 INFO  Hosting environment: Development
+2026-04-27 18:02:20,584 INFO  Content root path: /home/belezerio/SIOMS
