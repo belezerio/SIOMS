@@ -14,3 +14,139 @@ FROM [Products] AS [p]
 ORDER BY (SELECT 1)
 OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
 2026-04-25 20:47:51,075 INFO  Application is shutting down...
+2026-04-25 20:55:30,620 INFO  Now listening on: http://localhost:5203
+2026-04-25 20:55:30,653 INFO  Application started. Press Ctrl+C to shut down.
+2026-04-25 20:55:30,654 INFO  Hosting environment: Development
+2026-04-25 20:55:30,654 INFO  Content root path: /home/belezerio/SIOMS
+2026-04-25 20:55:46,031 WARN  Failed to determine the https port for redirect.
+2026-04-25 20:55:46,264 INFO  🔥 LOG TEST WORKING
+2026-04-25 20:55:46,265 ERROR 🔥 ERROR LOG TEST
+2026-04-25 20:58:33,076 INFO  Application is shutting down...
+2026-04-25 20:58:50,891 WARN  No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-04-25 20:58:51,071 WARN  No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-04-25 20:58:58,294 WARN  No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-04-25 20:58:58,847 INFO  Executed DbCommand (28ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2026-04-25 20:58:58,901 INFO  Executed DbCommand (41ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-04-25 20:58:58,904 INFO  Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2026-04-25 20:58:58,905 INFO  Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-04-25 20:58:58,967 INFO  Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-04-25 20:58:58,991 INFO  Applying migration '20260425135459_InitialCreate'.
+2026-04-25 20:58:59,145 ERROR Failed executing DbCommand (72ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Categories] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Categories] PRIMARY KEY ([Id])
+);
+2026-04-27 17:58:04,541 WARN  No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-04-27 17:58:04,698 WARN  No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-04-27 17:58:10,224 WARN  No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-04-27 17:58:10,730 INFO  Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2026-04-27 17:58:10,760 INFO  Executed DbCommand (18ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-04-27 17:58:10,763 INFO  Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2026-04-27 17:58:10,763 INFO  Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-04-27 17:58:10,795 INFO  Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-04-27 17:58:10,813 INFO  Applying migration '20260425135459_InitialCreate'.
+2026-04-27 17:58:10,913 ERROR Failed executing DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Categories] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Categories] PRIMARY KEY ([Id])
+);
+2026-04-27 17:59:28,122 WARN  No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-04-27 17:59:28,308 WARN  No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-04-27 17:59:37,793 WARN  No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-04-27 17:59:38,288 INFO  Executed DbCommand (17ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2026-04-27 17:59:38,313 INFO  Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-04-27 17:59:38,316 INFO  Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2026-04-27 17:59:38,317 INFO  Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-04-27 17:59:38,345 INFO  Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-04-27 17:59:38,363 INFO  Applying migration '20260425135459_InitialCreate'.
+2026-04-27 17:59:38,456 ERROR Failed executing DbCommand (18ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Categories] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Categories] PRIMARY KEY ([Id])
+);
+2026-04-27 18:00:50,456 WARN  No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-04-27 18:00:56,588 INFO  Executed DbCommand (18ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2026-04-27 18:00:59,708 INFO  Executed DbCommand (3,075ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [SIOMSDB] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+END;
+2026-04-27 18:00:59,863 INFO  Executed DbCommand (154ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+DROP DATABASE [SIOMSDB];
+2026-04-27 18:01:04,950 WARN  No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-04-27 18:01:05,343 WARN  No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-04-27 18:01:05,783 INFO  Executed DbCommand (371ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [SIOMSDB];
+2026-04-27 18:01:05,964 INFO  Executed DbCommand (179ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [SIOMSDB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2026-04-27 18:01:05,992 INFO  Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2026-04-27 18:01:06,073 INFO  Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2026-04-27 18:01:06,076 INFO  Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2026-04-27 18:01:06,092 INFO  Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-04-27 18:01:06,129 INFO  Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-04-27 18:01:06,146 INFO  Applying migration '20260425135459_InitialCreate'.
+2026-04-27 18:01:06,189 INFO  Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Categories] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Categories] PRIMARY KEY ([Id])
+);
+2026-04-27 18:01:06,192 INFO  Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Description] nvarchar(max) NOT NULL,
+    [Price] decimal(18,2) NOT NULL,
+    [Stock] int NOT NULL,
+    [CategoryId] int NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Products_Categories_CategoryId] FOREIGN KEY ([CategoryId]) REFERENCES [Categories] ([Id]) ON DELETE CASCADE
+);
+2026-04-27 18:01:06,193 INFO  Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Products_CategoryId] ON [Products] ([CategoryId]);
+2026-04-27 18:01:06,198 INFO  Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20260425135459_InitialCreate', N'8.0.0');
+2026-04-27 18:01:06,214 INFO  Applying migration '20260427122928_AddUserTable'.
+2026-04-27 18:01:06,222 INFO  Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20260427122928_AddUserTable', N'8.0.0');
